@@ -1,0 +1,15 @@
+#include <stdio.h>
+
+int main()
+{
+    float f,c;
+	printf("Temperature of a city in Fahrenheit  : ");
+	scanf("%f", &f);
+	
+
+	c=(f-32)*100/180;
+	
+	printf("\n Temperature of a city in celcius: %f", c);
+	
+	return 0;
+}

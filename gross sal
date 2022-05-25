@@ -1,0 +1,15 @@
+#include <stdio.h>
+
+int main()
+{
+   float base_salary,allowance,house_rent,gross_salary;
+   printf("enter base_sal :");
+   scanf("%f",&base_salary);
+   allowance=0.4*base_salary;
+   house_rent=0.2*base_salary;
+   gross_sal=base_salary+allowance+house_rent;
+   printf("gross salaray is:%.2f",gross_salary);
+  
+    return 0;
+
+}
